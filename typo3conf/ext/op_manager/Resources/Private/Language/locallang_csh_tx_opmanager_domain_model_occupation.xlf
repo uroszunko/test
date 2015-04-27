@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2015-04-22T18:44:06Z" product-name="op_manager">
+		<header/>
+		<body>
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="image_caption.description">
+				<source>imageCaption</source>
+			</trans-unit>
+			<trans-unit id="introduction.description">
+				<source>introduction</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="description2.description">
+				<source>description2</source>
+			</trans-unit>
+			<trans-unit id="description3.description">
+				<source>description3</source>
+			</trans-unit>
+			<trans-unit id="rating.description">
+				<source>rating</source>
+			</trans-unit>
+			<trans-unit id="opportunities.description">
+				<source>opportunities</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

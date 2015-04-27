@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2015-04-22T18:44:06Z" product-name="op_manager">
+		<header/>
+		<body>
+			<trans-unit id="vacancies.description">
+				<source>vacancies</source>
+			</trans-unit>
+			<trans-unit id="occupation.description">
+				<source>occupation</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

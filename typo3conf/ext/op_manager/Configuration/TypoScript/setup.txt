@@ -1,0 +1,18 @@
+plugin.tx_opmanager {
+	mvc{
+		callDefaultActionIfActionCantBeResolved = 1
+	}
+	view {
+		templateRootPath = {$plugin.tx_opmanager.view.templateRootPath}
+		partialRootPath = {$plugin.tx_opmanager.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_opmanager.view.layoutRootPath}
+		widget.TYPO3\CMS\Fluid\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = {$plugin.tx_opmanager.view.widget.paginate.templateRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_opmanager.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}

@@ -1,0 +1,31 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for displaying a single view for a domain object
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Show.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Single View for Occupation</h1>
+<f:flashMessages renderMode="div" />
+<f:if condition="{occupation.previous}">
+	<f:then><f:link.action action="show" arguments="{occupation:occupation.previous, categories:arguments.categories}"><</f:link.action></f:then>
+	<f:else><</f:else>
+</f:if>
+{occupation.listPosition}/{occupationsCount}
+<f:if condition="{occupation.next}">
+	<f:then><f:link.action action="show" arguments="{occupation:occupation.next, categories:arguments.categories}">></f:link.action></f:then>
+	<f:else>></f:else>
+</f:if>
+<br />
+<f:render partial="Occupation/Properties" arguments="{occupation:occupation}" />
+<br />
+<f:link.action action="list" arguments="{categories:arguments.categories}">Back to list</f:link.action>
+</f:section>
