@@ -1,0 +1,15 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            WM\OpManager\Domain\Model\Category {
+                mapping {
+                    tableName = sys_category
+                    recordType = Tx_OpManager_Category
+                }
+            }
+            
+    	}
+    }
+}
